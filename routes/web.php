@@ -23,4 +23,9 @@ Route::get('test',
     TestController::class, 'test'
 ])->name('test');
 
+Route::get('test2',
+[
+    TestController2:class, 'test2'
+])->name('test2');
+
 require __DIR__.'/auth.php';
