@@ -1,4 +1,3 @@
-
     @if (Route::has('login'))
         @auth
             <a
@@ -43,7 +42,7 @@
 
 @foreach ($users as $user)
     <p>
-        {{$user->name}}
+        id {{$user->id}}：{{$user->name}}：{{$user->email}}
     </p>
 @endforeach
 
