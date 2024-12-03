@@ -33,13 +33,19 @@
 
 
 <div>
-<p>こんにちは</p>
+    <p>こんにちは</p>
 <div>
 @auth
     <p>
         {{Auth::user()->name}} さん、こんにちは。
     </p>
 @endauth
+
+@foreach ($users as $user)
+    <p>
+        {{$user->name}}
+    </p>
+@endforeach
 
 <script>
     //alert("この祠を壊したのは誰じゃ！？")
