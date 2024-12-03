@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('fruits')->unique();
             $table->string('favorite');
+            $table->integer('price');
             $table->timestamps();
         });
     }
