@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '0a27497d70a8755518a6940e65dd3f68b6ed311b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -404,9 +404,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '0a27497d70a8755518a6940e65dd3f68b6ed311b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -456,6 +456,15 @@
             'install_path' => __DIR__ . '/../laravel/serializable-closure',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'laravel/telescope' => array(
+            'pretty_version' => 'v5.4.0',
+            'version' => '5.4.0.0',
+            'reference' => 'bc3df85f1d5653c9473f1f858c98309345ebd1ca',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/telescope',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'laravel/tinker' => array(
             'pretty_version' => 'v2.10.0',
